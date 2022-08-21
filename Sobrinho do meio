@@ -1,0 +1,22 @@
+H,Z,L=map(int,input().split())
+
+maior=max(H,Z,L)
+
+
+if L==maior:
+    if H<Z:
+        print("zezinho")
+    else:
+        print("huguinho")
+
+elif Z==maior:
+    if H<L:
+        print("luisinho")
+    else:
+        print("huguinho")
+
+elif H==maior:
+    if L<Z:
+        print("zezinho")
+    else:
+        print("luisinho")
