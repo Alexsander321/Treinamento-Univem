@@ -1,0 +1,9 @@
+maior=-99999
+
+for i in range(100):
+    n=int(input())
+    if(n>maior):
+        maior=n
+        pos=i
+print(maior)
+print(pos+1)
