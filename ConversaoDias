@@ -1,0 +1,8 @@
+idadeDias=int(input())
+ano=idadeDias//365
+idadeDias=idadeDias%365
+mes=idadeDias//30
+idadeDias=(idadeDias%30)
+print(ano,"ano(s)")
+print(mes,"mes(es)")
+print(idadeDias,"dia(s)")
