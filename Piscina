@@ -1,0 +1,10 @@
+
+area=0
+while True:
+    larg = int(input())
+    comp = int(input())
+    if larg==0 and comp==0:
+        break
+    else:
+        area=((larg-4)*(comp-4))
+    print(area)
