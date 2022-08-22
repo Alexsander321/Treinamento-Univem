@@ -1,0 +1,11 @@
+from math import  sqrt
+while True:
+    a=int(input("Lado a:"))
+    c=int(input("Lado c:"))
+
+
+    if a==0 and c==0:
+        break
+    else:
+        b = sqrt(a**2-c**2)
+        print("%d"%b)
