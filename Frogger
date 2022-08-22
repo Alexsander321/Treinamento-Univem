@@ -1,0 +1,14 @@
+
+while True:
+    A = int(input())
+    B = int(input())
+    if A == 0 and B ==0:
+        break
+    else:
+        for i in range(A,B+1,2):
+            if i==B or i==B-1:
+                print(i)
+            else:
+
+                print(i,end=" ")
+
