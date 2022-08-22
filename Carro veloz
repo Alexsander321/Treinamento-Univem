@@ -1,0 +1,25 @@
+melhor=-9999
+velocidade=0
+D=int(input("Distância percorrida:"))
+while True:
+
+    tempo=float(input("Tempo:"))
+    if tempo==0:
+        break
+    else:
+        velocidade=D/tempo
+        if velocidade>melhor:
+            melhor=velocidade
+
+print(melhor)
+
+d=int(input("distancia:"))
+t=int(input("tempo:"))
+menor=t
+while True:
+    t=int(input("tempo: "))
+    if t==0:
+        break
+    if t<menor:
+        menor=t
+print(d/menor)
