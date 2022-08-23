@@ -1,0 +1,12 @@
+In,Fn=map(int,input().split())
+
+if Fn<In:
+    horas=(Fn+24)-In
+    print("O JOGO DUROU",horas,"HORA(S)")
+if Fn==In:
+    horas=24
+    print("O JOGO DUROU", horas, "HORA(S)")
+elif Fn>In:
+    horas=Fn-In
+    print("O JOGO DUROU",horas,"HORA(S)")
+
