@@ -1,0 +1,14 @@
+N=int(input())
+
+i=0
+soma=0
+
+while True:
+    i+=1
+    bi=N%2
+    N=N//2
+    soma=soma(bi*10**i)
+
+    if N==0:
+        break
+print(soma//10)
