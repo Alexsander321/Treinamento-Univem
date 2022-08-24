@@ -1,0 +1,20 @@
+x1,y1=map(int,input("X1, Y1: ").split())
+x2,y2=map(int,input("X2, Y2: ").split())
+maxX=max(x1,x2)
+maxY=max(y1,y2)
+minX=min(x1,x2)
+minY=min(y1,y2)
+
+while True:
+    a=int(input("Valor de x:"))
+    b=int(input("Valor de y:"))
+    if a==0 and b==0:
+        break
+    if a>maxX or b>maxY or a<minX or b<minY:
+        print("Fora")
+
+    elif a==x1 or a==x2 or b==y1 or b==y2:
+        print("Trave")
+    else:
+        print("Gol")
+
