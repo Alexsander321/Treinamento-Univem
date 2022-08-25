@@ -1,0 +1,25 @@
+n1=float(input())
+n2=float(input())
+n3=float(input())
+
+maior=max(n1,n2,n3)
+
+
+
+if n1==maior:
+    if n2>n3:
+        print((n1+n2)/2)
+    else:
+        print((n1+n3/2))
+
+if n2==maior:
+    if n1>n3:
+        print((n1+n2)/2)
+    else:
+        print((n2+n3/2))
+
+if n3==maior:
+    if n1>n2:
+        print((n3+n1)/2)
+    else:
+        print((n3+n2/2))
