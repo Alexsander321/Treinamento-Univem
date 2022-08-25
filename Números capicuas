@@ -1,0 +1,15 @@
+
+num=str(input())
+tam=len(num)
+
+if tam==4:
+
+
+    if num[0]==num[3] and num[2]==num[1]:
+        print("capicua")
+    else:
+        print("Não é capicua")
+
+
+else:
+    print("ERRO")
