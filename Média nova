@@ -1,0 +1,17 @@
+n1=float(input())
+n2=float(input())
+n3=float(input())
+
+maior=max(n1,n2,n3)
+menor=min(n1,n2,n3)
+
+
+if n1==maior and menor==n2:
+    print((n1+n3)/2)
+
+if n2==maior and menor==n1:
+    print((n2+n3)/2)
+elif n3==maior and menor==n2:
+    print((n3+n1)/2)
+elif n3==maior and menor==n1:
+    print()
