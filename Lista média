@@ -1,0 +1,9 @@
+a=float(input())
+b=float(input())
+c=float(input())
+
+lista=[a,b,c]
+
+menor=min(lista)
+lista.remove(menor) #remove um elemento da lista
+print((lista[0]+lista[1])/2)
