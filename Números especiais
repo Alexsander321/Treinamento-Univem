@@ -1,0 +1,10 @@
+num=str(input())
+quant=len(num)
+
+if quant!=4:
+    print("ERRO")
+elif ((int(num[0])*10 + int(num[1]))+int(num[2])*10+int(num[3]))**2==int(num):
+    print("numero especial")
+
+else:
+    print("Não é numero especial")
