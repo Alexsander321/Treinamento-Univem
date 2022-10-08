@@ -1,0 +1,51 @@
+nome="João"
+id=22
+val=51.34
+
+print(nome,"tem",id,"anos e apenas R$", val,"no bolso")
+print("{} tem {} anos de apenas R$ {} no bolso".format(nome,id,val))
+print("%s tem %d anos e apenas R$ %.2f no bolso"%(nome,id,val))
+
+print("{:12} tem {:3} anos apenas".format(nome, id))
+
+
+nome=input("Digite o seu nome:")
+id=int(input("Digite sua idade:"))
+print("Seu nome é =",nome,"e sua idade =",id)
+
+num=int(input("Número:"))
+dobro=num*2
+print("O dobro do número",num,"=",dobro)
+
+
+a=int(input("Número A:"))
+b=int(input("Número B:"))
+print(a,"*",b,"=",a*b)
+print(a,"+",b,"=",a+b)
+print(a,"-",b,"=",a-b)
+print(a,"/",b,"=",a//b)
+
+print("Resto da divisão entre A e B: ",a%b)
+
+
+nota1=float(input())
+nota2=float(input())
+media=(nota1+nota2)/2
+print("Mèdia vai ser igual: %.2f"%media)
+
+
+
+''' ///////////////////////////// '''
+
+
+ang1=int(input("Valor do ângulo:"))
+compl=90-ang1
+print("Seun angulo complementar vai ser =",compl)
+
+
+
+comp=float(input())
+larg=float(input())
+
+print("Área:",comp*larg)
+print("Perímetro:",comp*2+larg*2)
