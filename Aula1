@@ -49,3 +49,12 @@ larg=float(input())
 
 print("Área:",comp*larg)
 print("Perímetro:",comp*2+larg*2)
+
+
+n=int(input())
+num=0
+for i in range(n+1):
+    num+=1
+    n=n*(n-num)
+
+print(n)
