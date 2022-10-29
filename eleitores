@@ -1,0 +1,27 @@
+n=int(input("Total de eleitores: "))
+a=0
+b=0
+c=0
+x=0
+while x<n:
+    print("Coloque 1 para o candidato A / Coloque 2 para o candidato B / Coloque 3 para o candidato C")
+    voto=int(input())
+    if voto==1:
+        a+=1
+    elif voto==2:
+        b+=1
+    else:
+        c+=1
+    x+=1
+
+maior=max(a,b,c)
+
+if maior==a:
+    print("Candidato A venceu")
+elif maior==b:
+    print("Canidato B venceu")
+elif maior==c:
+    print("Candidato C venceu")
+elif a==b==c:
+    print("Empate")
+elif
