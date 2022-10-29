@@ -1,0 +1,47 @@
+a=int(input("Valor de A: "))
+b=int(input("Valor de B: "))
+c=int(input("Valor de C: "))
+auxA=a
+auxB=b
+auxC=c
+if a >b and a>c:
+
+    if b>c:
+        c = auxA
+        b=auxB
+        a=auxC
+    elif c>b:
+        c = auxA
+        b=auxC
+        a=auxB
+
+elif b >a and b>c:
+
+    if a>c:
+        c = auxB
+        b=auxA
+        a=auxC
+    elif c>a:
+        c = auxB
+        b=auxC
+        a=auxA
+
+elif c >a and c>b:
+
+    if a>b:
+        c = auxC
+        b=auxA
+        a=auxB
+    elif b>a:
+        c = auxC
+        b=auxB
+        a=auxA
+
+
+print("Valor de A:",a)
+print("Valor de B:",b)
+print("Valor de C:",c)
+
+
+
+
