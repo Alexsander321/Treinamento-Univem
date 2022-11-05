@@ -1,0 +1,8 @@
+while True:
+    larg=float(input("Largura do quintal: "))
+    comp=float(input("Comprimento do quintal: "))
+    if larg==0 and comp==0:
+        break
+    area=(larg-2)*(comp-2)
+    print("Área da piscina: %.2f".format(area))
+
