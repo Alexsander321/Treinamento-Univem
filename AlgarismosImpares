@@ -1,0 +1,15 @@
+while True:
+    n=input()
+    if int(n)==0:
+        break
+    else:
+        soma=0
+        for i in n:
+            num=int(n)
+
+
+
+            if int(i)%2!=0:
+                soma+=1
+    print(soma)
+
