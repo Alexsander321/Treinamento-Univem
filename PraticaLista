@@ -1,0 +1,21 @@
+'''a=[]
+for i in range(10):
+    a.append(int(input()))
+
+maior=max(a)
+menor=min(a)
+print(maior)
+print(menor)
+'''
+
+b=[]
+
+for i in range(20):
+    n=(int(input()))
+    if n%2!=0:
+        b.append(n)
+
+
+print(b)
+
+
