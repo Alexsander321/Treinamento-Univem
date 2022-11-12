@@ -17,5 +17,6 @@ for i in range(20):
 
 
 print(b)
-
+b.sort()
+print(b)
 
