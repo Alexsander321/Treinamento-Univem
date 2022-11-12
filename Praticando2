@@ -1,0 +1,40 @@
+from random import randint
+'''
+a=[]
+b=[]
+for i in range(10):
+    a.append(int(input()))
+
+for i in range(10):
+    b.append(int(input()))
+
+for i in range(10):
+    pe=a[i]*b[i]
+
+print(pe)
+'''
+
+
+c=[]
+for i in range(10):
+    c.append(randint(1,10))
+
+n = int(input())
+if c.__contains__(n)==True:
+    print("Existe")
+    print(c.count(n))
+else:
+    print("Não existe")
+
+a=[]
+b=[]
+d=[]
+for i in range(20):
+
+    a.append(randint(1,20))
+    if a[i]%2==0:
+        b.append(a[i])
+    else:
+        d.append(a[i])
+print(b)
+print(d)
