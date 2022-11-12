@@ -1,0 +1,8 @@
+
+while True:
+    n = float(input())
+    if n==0:
+        break
+    if n>=4:
+        soma=(n-2)*180
+        print("O valor do seu angulo é: ",soma / n)
