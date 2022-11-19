@@ -1,0 +1,6 @@
+A=[30,40,10,20,60]
+print("Antes de inserir: ", A)
+A.insert(1,33)
+print("Depois de inserir: ",A)
+A.insert(30,100)
+print("Depois de inserir o 100: ",A)
