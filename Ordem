@@ -1,0 +1,21 @@
+n=int(input())
+a=[]
+b=[]
+c=[]
+for i in range(n):
+    a.append(int(input()))
+b.insert(0,min(a))
+b.insert(1,max(a))
+
+#Ordena, mas alguns números não aparecem
+for i in range(n):
+    if a[i]>min(a) and a[i]<max(b) and a[i]<b[1]:
+        b.insert(1,a[i])
+
+#Adiciona o que não colocou na lista
+for i in range(n):
+        if b.__contains__(a[i])==False:
+            b.insert(2,a[i])
+
+
+print(b)
