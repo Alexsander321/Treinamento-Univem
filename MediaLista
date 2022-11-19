@@ -1,0 +1,16 @@
+a=[]
+b=[]
+c=[]
+for i in range(10):
+    a.append(float(input()))
+med=(a[0]+a[1]+a[2]+a[3]+a[4]+a[5]+a[6]+a[7]+a[8]+a[9])/10
+
+for i in range(10):
+    if a[i]>med:
+        b.append(a[i])
+    elif a[i]<med:
+        c.append(a[i])
+print("Média: ",med)
+print("Acima da média: ",b)
+print("Abaixo da média: ",c)
+
