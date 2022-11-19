@@ -1,0 +1,16 @@
+a=[]
+b=[]
+c=[]
+for i in range(10):
+    a.append(float(input()))
+
+for i in range(10):
+    b.append(float(input()))
+
+for i in range(10):
+    if a.__contains__(b[i])==True:
+        c.append(b[i])
+
+print("Valores de A: ",a)
+print("Valores do B",b)
+print("Intersecção de A e B: ",c)
