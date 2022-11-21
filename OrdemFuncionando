@@ -1,0 +1,18 @@
+n=int(input())
+a=[]
+b=[]
+
+for i in range(n):
+    a.append(int(input()))
+b.insert(0,min(a))
+
+
+
+for i in range(n):
+
+    b.insert(1,max(a))
+    a.remove(max(a))
+
+b.remove(min(b))
+a=b
+print(a)
