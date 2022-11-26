@@ -1,0 +1,4 @@
+nome=input()
+sobr=input()
+print("Autor: ",nome+" "+sobr)
+print(sobr+", "+nome)
