@@ -1,0 +1,6 @@
+frase=input()
+sep=frase.split(" ")
+sigla=""
+for i in range(0,len(sep)):
+    sigla+=sep[i][0]
+print(sigla)
