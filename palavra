@@ -1,0 +1,11 @@
+frase = input()
+palavra = input()
+sep = frase.split(" ")
+count = 0
+if palavra in sep:
+    for i in range(0, len(sep)):
+        if sep[i] == palavra:
+            count += 1
+    print(count)
+else:
+    print("palavra não existe na frase")
