@@ -1,0 +1,116 @@
+'''
+#Estudando strings
+s="Olá, mundo!"
+print(s)
+
+#tamanho de uma string
+len(s)
+
+#Concatenação
+print("Meu Brasil"+"brasileiro")
+'''
+
+'''
+nome=input("Digite seu nome: ")
+tam=len(nome)
+sobr=input("Digite o sobrenome: ")
+nome_completo=nome+" "+sobr
+print("Nome = ",nome_completo)
+
+#Manipulação
+print(nome_completo[3])
+print(nome_completo[1:5])
+print(nome_completo[ :5])
+print(nome_completo[5: ])
+
+
+#Técnica slicing
+print(nome_completo[::2])
+inv=nome[::-1]
+print("Nome invertido: ",inv)
+'''''
+
+''''
+palavra=input()
+inv=palavra[::-1]
+if palavra.upper()==inv.upper():
+    print("São palindromos")
+else:
+    print("Não são palindromos")
+'''
+''''
+#Usando list e join
+palavra=input()
+lista=list(palavra) #transforma string em lista
+print("Palavra = ",palavra)
+print("Lista:",lista)
+
+str="".join(lista) #transforma lista em string
+print("Palavra = ",str)
+'''
+
+#Operador in e método count
+'''
+frase=input("Digite uma frase: ")
+palavra=input("Digite uma palavra: ")
+if palavra.upper() in frase.upper():
+    print("A palavra:",palavra)
+    print("existe na frase: ",frase)
+else:
+    print("A palavra:",palavra,"não existe na frase!")
+print("Na frase:",frase)
+print("Existem ",frase.count('a'),"letras (as)")
+'''
+
+#Método find
+'''
+frase=input("Digite uma frase: ")
+palavra=input("Digite uma palavra: ")
+
+if palavra in frase:
+    print("Posicao: ",frase.find(palavra)) #acha a posição da palavra
+'''
+
+#Split
+'''
+frase=input("Digite uma frase: ")
+L=frase.split(" ")
+print("Frase = ",frase)
+print("Lista: ",L)
+'''
+
+
+'''
+frase=input()
+numA=frase.count("a")
+numE=frase.count("e")
+numI=frase.count("i")
+numO=frase.count("o")
+numU=frase.count("u")
+print("O total de vogais é de: ",numA+numE+numI+numO+numU)
+'''
+
+
+'''
+nome=input()
+sobr=input()
+print("Autor: ",nome+""+sobr)
+print(sobr+", "+nome)
+'''
+
+
+
+frase=input()
+carac=input()
+'''
+if carac in frase:
+    quantCar=frase.count(carac)
+    print("A quantidade do caracter",carac.upper(),"é de: ",quantCar)
+else:
+    print("Caractere não existe nessa frase")
+'''
+cont=0
+for i in frase:
+    if carac==i:
+        cont+=1
+print("A quantidade de caracter é de: ",cont)
