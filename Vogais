@@ -1,0 +1,15 @@
+frase=input()
+'''
+numA=frase.count("a")
+numE=frase.count("e")
+numI=frase.count("i")
+numO=frase.count("o")
+numU=frase.count("u")
+print("O total de vogais é de: ",numA+numE+numI+numO+numU)
+'''
+cont=0
+vogais="aeiou"
+for i in frase:
+    if i in vogais:
+        cont+=1
+print(cont)
