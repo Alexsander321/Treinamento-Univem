@@ -1,0 +1,7 @@
+palavra=input()
+carac=input()
+if carac in palavra:
+    quantCar=palavra.count(carac)
+    print("A quantidade do caracter",carac.upper(),"é de: ",quantCar)
+else:
+    print("Caractere não existe nessa frase")
