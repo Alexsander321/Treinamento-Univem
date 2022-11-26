@@ -1,0 +1,6 @@
+email=input("")
+local=email.find("@")
+nome=email[0:local]
+dom=email[local+1:]
+print("Usuário: ",nome)
+print("Domínio: ",dom)
